@@ -3,7 +3,7 @@
 require_once '../../src/response.php';
 
 header("Content-Type: application/json");
-//checa se o método é get
+//checa se o método http é get
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
     $response = new Response;
